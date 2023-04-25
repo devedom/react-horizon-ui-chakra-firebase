@@ -53,7 +53,7 @@ export default function SidebarDocs() {
           textAlign='center'
           px='10px'
           mb='14px'>
-          Horizon React
+          Verpan
         </Text>
         <Text
           fontSize='14px'
@@ -61,10 +61,10 @@ export default function SidebarDocs() {
           px='10px'
           mb='14px'
           textAlign='center'>
-          Open-Source React App styled with Chakra UI.
+          Panel configurator
         </Text>
       </Flex>
-      <Link href='https://appseed.us/support/'>
+      {/*<Link href='https://appseed.us/support/'>
         <Button
           bg='whiteAlpha.300'
           _hover={{ bg: "whiteAlpha.200" }}
@@ -77,7 +77,7 @@ export default function SidebarDocs() {
           mx='auto'>
           Get Support
         </Button>
-      </Link>
+      </Link>*/}
     </Flex>
   );
 }

@@ -99,7 +99,8 @@ export default function HeaderLinks(props) {
         </Text>
       </Flex>
       <SidebarResponsive routes={routes} />
-      <Menu>
+
+      {/*<Menu>
         <MenuButton p="0px">
           <Icon
             mt="6px"
@@ -159,9 +160,9 @@ export default function HeaderLinks(props) {
             </MenuItem>
           </Flex>
         </MenuList>
-      </Menu>
+        </Menu>*/}
 
-      <Menu>
+      {/*<Menu>
         <MenuButton p="0px">
           <Icon
             mt="6px"
@@ -185,14 +186,14 @@ export default function HeaderLinks(props) {
         >
           <Image src={navImage} borderRadius="16px" mb="28px" />
           <Flex flexDirection="column">
-            <Link w="100%" href="https://horizon-ui.com/pro">
+            <Link w="100%" href="#">
               <Button w="100%" h="44px" mb="10px" variant="brand">
                 Buy Horizon UI PRO
               </Button>
             </Link>
             <Link
               w="100%"
-              href="https://horizon-ui.com/documentation/docs/introduction"
+              href="#"
             >
               <Button
                 w="100%"
@@ -207,7 +208,7 @@ export default function HeaderLinks(props) {
             </Link>
             <Link
               w="100%"
-              href="https://github.com/horizon-ui/horizon-ui-chakra"
+              href="#"
             >
               <Button
                 w="100%"
@@ -221,7 +222,7 @@ export default function HeaderLinks(props) {
             </Link>
           </Flex>
         </MenuList>
-      </Menu>
+      </Menu>*/}
 
       <Button
         variant="no-hover"
@@ -273,7 +274,7 @@ export default function HeaderLinks(props) {
               fontWeight="700"
               color={textColor}
             >
-              👋&nbsp; Hey, Adela
+              👋&nbsp; Hello, Verpan
             </Text>
           </Flex>
           <Flex flexDirection="column" p="10px">
@@ -285,14 +286,16 @@ export default function HeaderLinks(props) {
             >
               <Text fontSize="sm">Profile Settings</Text>
             </MenuItem>
-            <MenuItem
+
+            {/*<MenuItem
               _hover={{ bg: 'none' }}
               _focus={{ bg: 'none' }}
               borderRadius="8px"
               px="14px"
-            >
+              >
               <Text fontSize="sm">Newsletter Settings</Text>
-            </MenuItem>
+            </MenuItem>*/}
+
             <MenuItem
               _hover={{ bg: 'none' }}
               _focus={{ bg: 'none' }}

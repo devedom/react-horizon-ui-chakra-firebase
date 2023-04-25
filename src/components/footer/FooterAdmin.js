@@ -41,17 +41,17 @@ export default function Footer() {
           <Link
             mx='3px'
             color={textColor}
-            href='https://www.simmmple.com'
+            href='#'
             target='_blank'>
-            Simmmple
+            Verpan configurators
           </Link> 
           - Coded by 
           <Link
             mx='3px'
             color={textColor}
-            href='https://appseed.us'
+            href='#'
             target='_blank'>
-            AppSeed
+            Pixelab
           </Link> 
         </Text>
       </Text>
@@ -65,8 +65,8 @@ export default function Footer() {
             fontWeight='500'
             color={textColor}
             target='_blank'
-            href='https://github.com/app-generator/react-horizon-ui-chakra-firebase'>
-            Source Code
+            href='#'>
+            Contact
           </Link>
         </ListItem>        
         <ListItem
@@ -78,7 +78,7 @@ export default function Footer() {
             fontWeight='500'
             color={textColor}
             target='_blank'
-            href='https://appseed.us/support/'>
+            href='#'>
             Support
           </Link>
         </ListItem>

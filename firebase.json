@@ -1,0 +1,6 @@
+{
+ "hosting": {
+   "site": "verpan-panel-configurator",
+   "public": "build"
+  }
+}

@@ -46,7 +46,7 @@ export default function TotalSpent(props) {
       w='100%'
       mb='0px'
       {...rest}>
-      <Flex justify='space-between' ps='0px' pe='20px' pt='5px'>
+      {/*<Flex justify='space-between' ps='0px' pe='20px' pt='5px'>
         <Flex align='center' w='100%'>
           <Button
             bg={boxBg}
@@ -77,18 +77,21 @@ export default function TotalSpent(props) {
             <Icon as={MdBarChart} color={iconColor} w='24px' h='24px' />
           </Button>
         </Flex>
-      </Flex>
+  </Flex>*/}
+
+
+
       <Flex w='100%' flexDirection={{ base: "column", lg: "row" }}>
-        <Flex flexDirection='column' me='20px' mt='28px'>
+        <Flex flexDirection='column' me='20px' mt='0px'>
           <Text
             color={textColor}
-            fontSize='34px'
+            fontSize='20px'
             textAlign='start'
             fontWeight='700'
             lineHeight='100%'>
-            $37.5K
+            Total Cost:
           </Text>
-          <Flex align='center' mb='20px'>
+          {/*<Flex align='center' mb='20px'>
             <Text
               color='secondaryGray.600'
               fontSize='sm'
@@ -103,9 +106,9 @@ export default function TotalSpent(props) {
                 +2.45%
               </Text>
             </Flex>
-          </Flex>
+          </Flex>*/}
 
-          <Flex align='center'>
+          {/*<Flex align='center'>
             <Icon as={IoCheckmarkCircle} color='green.500' me='4px' />
             <Text color='green.500' fontSize='md' fontWeight='700'>
               On track
@@ -117,7 +120,8 @@ export default function TotalSpent(props) {
             chartData={lineChartDataTotalSpent}
             chartOptions={lineChartOptionsTotalSpent}
           />
-        </Box>
+        </Box>*/}
+      </Flex>
       </Flex>
     </Card>
   );
